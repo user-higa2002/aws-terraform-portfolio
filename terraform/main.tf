@@ -191,7 +191,7 @@ resource "aws_lb_target_group" "web" {
   }
 
   tags = {
-    name = "portfolio-tf-tg"
+    Name = "portfolio-tf-tg"
   }
 }
 
@@ -284,11 +284,11 @@ resource "aws_cloudwatch_metric_alarm" "ec2_cpu" {
   }
 
   alarm_actions = [
-    "arn:aws:sns:ap-northeast-1:384489631246:Default_CloudWatch_Alarms_Topic"
+    "arn:aws:sns:ap-northeast-1:xxxxxxxxxxxx:Default_CloudWatch_Alarms_Topic"
   ]
 
   ok_actions = [
-    "arn:aws:sns:ap-northeast-1:384489631246:Default_CloudWatch_Alarms_Topic"
+    "arn:aws:sns:ap-northeast-1:xxxxxxxxxxxx:Default_CloudWatch_Alarms_Topic"
   ]
 }
 
