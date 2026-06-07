@@ -209,6 +209,7 @@ EC2 (Amazon Linux 2023 + nginx)
 - Session Managerを利用しSSH不要で接続可能な構成を実装
 - Auto Scaling GroupによりEC2を自動管理
 - CloudWatch Alarmによる監視を実装
+- 単体EC2構築から始め、ALB・Auto Scaling Group・CloudWatch監視へ段階的に拡張
 
 
 
