@@ -308,11 +308,11 @@ resource "aws_cloudwatch_metric_alarm" "ec2_status_check" {
   }
 
   alarm_actions = [
-    "arn:aws:sns:ap-northeast-1:384489631246:Default_CloudWatch_Alarms_Topic"
+    "arn:aws:sns:ap-northeast-1:xxxxxxxxxxxx:Default_CloudWatch_Alarms_Topic"
   ]
 
   ok_actions = [
-    "arn:aws:sns:ap-northeast-1:384489631246:Default_CloudWatch_Alarms_Topic"
+    "arn:aws:sns:ap-northeast-1:xxxxxxxxxxxx:Default_CloudWatch_Alarms_Topic"
   ]
 }
 
@@ -333,10 +333,10 @@ resource "aws_cloudwatch_metric_alarm" "alb_unhealthy_host" {
   }
 
   alarm_actions = [
-    "arn:aws:sns:ap-northeast-1:384489631246:Default_CloudWatch_Alarms_Topic"
+    "arn:aws:sns:ap-northeast-1:xxxxxxxxxxxx:Default_CloudWatch_Alarms_Topic"
   ]
 
   ok_actions = [
-    "arn:aws:sns:ap-northeast-1:384489631246:Default_CloudWatch_Alarms_Topic"
+    "arn:aws:sns:ap-northeast-1:xxxxxxxxxxxx:Default_CloudWatch_Alarms_Topic"
   ]
 }
