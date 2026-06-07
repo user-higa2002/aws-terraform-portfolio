@@ -198,6 +198,11 @@ EC2 (Amazon Linux 2023 + nginx)
 
 
 
+
+\---
+
+
+
 \## スクリーンショット
 
 
@@ -206,7 +211,7 @@ EC2 (Amazon Linux 2023 + nginx)
 
 
 
-<img src="./screenshots/asg.png" width="800">
+<img src="./screenshots/asg.png" width="1000">
 
 
 
@@ -259,8 +264,6 @@ Terraformで作成したCloudWatchアラーム。EC2 CPU使用率、Status Check
 
 
 Application Load Balancer経由でnginxへアクセスし、正常に疎通できることを確認。
-
-\* SNSによる通知設定
 
 
 
