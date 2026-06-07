@@ -262,5 +262,3 @@ Terraformで作成したCloudWatchアラーム。EC2 CPU使用率、Status Check
 
 Application Load Balancer経由でnginxへアクセスし、正常に疎通できることを確認。
 
-
-
