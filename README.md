@@ -290,7 +290,7 @@ ALB経由でnginxへアクセスし、正常に疎通できることを確認。
 <img src="./screenshots/sns-notification.png" width="800">
 
 CloudWatch AlarmのアクションとしてSNS通知を設定。
-EC2のCPU使用率、Status Check、ALBの異常を検知した際に通知を送信できる構成を実装。
+EC2のCPU使用率、ステータスチェック、ALBの異常を検知した際に通知を送信できる構成を実装。
 
 
 
