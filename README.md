@@ -200,3 +200,67 @@ EC2 (Amazon Linux 2023 + nginx)
 
 
 
+\## スクリーンショット
+
+
+
+\### Auto Scaling Group
+
+
+
+!\[Auto Scaling Group](screenshots/asg.png)
+
+
+
+Terraformで作成したAuto Scaling Group。2台のEC2インスタンスを自動管理する構成。
+
+
+
+\---
+
+
+
+\### Target Group
+
+
+
+!\[Target Group](screenshots/target-group.png)
+
+
+
+ALB配下のTarget Group。登録されたインスタンスが正常（Healthy）であることを確認。
+
+
+
+\---
+
+
+
+\### CloudWatch Alarm
+
+
+
+!\[CloudWatch Alarm](screenshots/cloudwatch-alarm.png)
+
+
+
+Terraformで作成したCloudWatchアラーム。EC2 CPU使用率、Status Check、ALBの異常を監視。
+
+
+
+\---
+
+
+
+\### nginx動作確認
+
+
+
+!\[nginx](screenshots/nginx.png)
+
+
+
+Application Load Balancer経由でnginxへアクセスし、正常に疎通できることを確認。
+
+
+
